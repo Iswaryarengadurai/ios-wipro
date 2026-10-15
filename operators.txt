@@ -1,0 +1,73 @@
+ARTHMETIC OPERATORS
+
+let a = 10
+let b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Remainder:", a % b)
+
+COMPARSION OPERATORS
+
+let a = 10
+let b = 20
+
+print("Equal:", a == b)
+print("Not Equal:", a != b)
+print("Greater Than:", a > b)
+print("Less Than:", a < b)
+print("Greater Than or Equal:", a >= b)
+print("Less Than or Equal:", a <= b)
+
+ASSIGNMENT OPERATORS
+
+var a = 10
+a += 5
+print(a)
+a -= 2
+print(a)
+a *= 2
+print(a)
+
+LOGICAL OPERATORS
+
+let a = 10
+let b = 20
+print(a < 15 && b > 15)
+print(a > 15 || b > 15)
+print(!(a < b))
+
+
+TERNARY OPERATOR
+
+let age = 20
+let result = age >= 18 ? "Eligible" : "Not eligible"
+print(result)
+
+NIL-COALESCING OPERATOR
+
+var name: String? = nil
+let result = name ?? "Guest"
+print(result)
+
+RANGE OPERATORS
+
+for i in 1...5 {
+    print(i)
+}
+
+for i in 1..<5 {
+    print(i)
+}
+
+UNARY OPERATOR
+
+let a = 10
+
+print(-a)
+print(!true)
+
+
+
